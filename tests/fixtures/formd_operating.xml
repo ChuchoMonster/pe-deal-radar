@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+  <schemaVersion>X0708</schemaVersion>
+  <submissionType>D</submissionType>
+  <primaryIssuer>
+    <cik>0009999901</cik>
+    <entityName>Lanternfish Robotics, Inc.</entityName>
+    <issuerAddress>
+      <street1>100 Example Way</street1>
+      <city>Austin</city>
+      <stateOrCountry>TX</stateOrCountry>
+      <stateOrCountryDescription>TEXAS</stateOrCountryDescription>
+      <zipCode>78701</zipCode>
+    </issuerAddress>
+    <issuerPhoneNumber>555-0100</issuerPhoneNumber>
+    <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+    <entityType>Corporation</entityType>
+    <entityTypeOtherDesc>should not be read as the entity type</entityTypeOtherDesc>
+    <yearOfInc>
+      <withinFiveYears>true</withinFiveYears>
+      <value>2022</value>
+    </yearOfInc>
+  </primaryIssuer>
+  <relatedPersonsList>
+    <relatedPersonInfo>
+      <relatedPersonName>
+        <firstName>Avery</firstName>
+        <middleName>Q</middleName>
+        <lastName>Testwell</lastName>
+      </relatedPersonName>
+      <relatedPersonRelationshipList>
+        <relationship>Executive Officer</relationship>
+        <relationship>Director</relationship>
+      </relatedPersonRelationshipList>
+      <relationshipClarification/>
+    </relatedPersonInfo>
+    <relatedPersonInfo>
+      <relatedPersonName>
+        <firstName>Morgan</firstName>
+        <lastName>Placeholder</lastName>
+      </relatedPersonName>
+      <relatedPersonRelationshipList>
+        <relationship> Director </relationship>
+      </relatedPersonRelationshipList>
+    </relatedPersonInfo>
+    <relatedPersonInfo>
+      <relatedPersonName>
+        <firstName></firstName>
+        <lastName></lastName>
+      </relatedPersonName>
+    </relatedPersonInfo>
+  </relatedPersonsList>
+  <offeringData>
+    <industryGroup>
+      <industryGroupType>Other Technology</industryGroupType>
+    </industryGroup>
+    <issuerSize>
+      <revenueRange>Decline to Disclose</revenueRange>
+    </issuerSize>
+    <typeOfFiling>
+      <newOrAmendment>
+        <isAmendment>false</isAmendment>
+      </newOrAmendment>
+      <dateOfFirstSale>
+        <value>2026-05-01</value>
+      </dateOfFirstSale>
+    </typeOfFiling>
+    <typesOfSecuritiesOffered>
+      <isEquityType>true</isEquityType>
+      <isOptionToAcquireType>true</isOptionToAcquireType>
+      <isDebtType>false</isDebtType>
+    </typesOfSecuritiesOffered>
+    <minimumInvestmentAccepted>25000</minimumInvestmentAccepted>
+    <offeringSalesAmounts>
+      <totalOfferingAmount>5000000</totalOfferingAmount>
+      <totalAmountSold>2000000</totalAmountSold>
+      <totalRemaining>3000000</totalRemaining>
+    </offeringSalesAmounts>
+    <investors>
+      <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+      <totalNumberAlreadyInvested>12</totalNumberAlreadyInvested>
+    </investors>
+  </offeringData>
+</edgarSubmission>

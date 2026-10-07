@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+  <primaryIssuer>
+    <entityName>Driftwood Opportunity Partners LP</entityName>
+    <issuerAddress>
+      <city>Wilmington</city>
+      <stateOrCountry>DE</stateOrCountry>
+    </issuerAddress>
+    <entityType>Limited Partnership</entityType>
+    <yearOfInc>
+      <overFiveYears>true</overFiveYears>
+    </yearOfInc>
+  </primaryIssuer>
+  <offeringData>
+    <industryGroup>
+      <industryGroupType>Pooled Investment Fund</industryGroupType>
+      <investmentFundInfo>
+        <investmentFundType>Hedge Fund</investmentFundType>
+      </investmentFundInfo>
+    </industryGroup>
+    <typeOfFiling>
+      <newOrAmendment>
+        <isAmendment>true</isAmendment>
+      </newOrAmendment>
+    </typeOfFiling>
+    <typesOfSecuritiesOffered>
+      <isPooledInvestmentFundInterestsType>true</isPooledInvestmentFundInterestsType>
+    </typesOfSecuritiesOffered>
+    <offeringSalesAmounts>
+      <totalOfferingAmount>Indefinite</totalOfferingAmount>
+      <totalAmountSold>0</totalAmountSold>
+    </offeringSalesAmounts>
+  </offeringData>
+</edgarSubmission>

@@ -1,5 +1,7 @@
 # PE Deal Radar
 
+![tests](https://github.com/ChuchoMonster/pe-deal-radar/actions/workflows/tests.yml/badge.svg)
+
 A small Python prototype that screens new private-company fundraises from SEC Form D filings, keeps the operating companies (not the funds), tracks each company's fundraising history, and optionally looks up leadership contacts. It does the first pass of a private-equity deal-sourcing analyst's job.
 
 About 650 lines of Python, standard library only. See **[examples/weekly-deal-radar-sample.md](examples/weekly-deal-radar-sample.md)** for the kind of weekly report it feeds.
@@ -56,6 +58,13 @@ Settings at the top of `deal_radar.py`: `START`/`END` dates, `MIN_OFFERING`, `SC
 | `FULLENRICH_API_KEY` | `fullenrich_enrich.py` | FullEnrich key. Without it, the script lists its targets and exits |
 
 Keys are read from the environment first, then from a local `.env`.
+
+## Tests
+
+- `python3 -W ignore::ResourceWarning -m unittest discover -s tests -v` from the repo root. Standard library only, nothing to install.
+- Covers Form D XML parsing, EDGAR search pagination, every survivor filter, the filing-history lifecycle signal, and the Blitz / FullEnrich target selection.
+- No network and no keys: SEC, Blitz and FullEnrich calls are replaced with fakes and fictional fixtures in `tests/fixtures/`.
+- Runs on every push and pull request via GitHub Actions.
 
 ## Known limitations
 
